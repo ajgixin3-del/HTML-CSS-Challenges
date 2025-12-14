@@ -86,10 +86,10 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   margin-left: auto;
 
-  bottom: 20px;
+  top: 20px;
   right: 20px;
  
   display: flex;
