@@ -97,6 +97,7 @@ footer {
   align-content: center;
   flex-direction: column;
 
+  /* add smooth to the changing color when a user hovers over the badge */
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -117,7 +118,7 @@ footer {
 .image-container img:first-of-type {
   vertical-align: bottom;
 }
-
+/* edit align of the third image with panda */
 #third-panda-image {
   vertical-align: bottom;
 }
@@ -184,6 +185,7 @@ footer {
   margin-bottom: 1em;
 }
 
+/* change the font-size of a button in education section */
 .education-container button {
   font-size: 150%;
 }
@@ -207,6 +209,7 @@ footer {
   color: #ff7f11;
 }
 
+/* Center the paragraph in the membership section */
 .membership p {
   max-width: 700px;
   margin-left: auto;
@@ -215,6 +218,10 @@ footer {
 
 /*Programs*/
 
-/*.programs .card {
+/* commenting out to fix the layout issue with cards stacking vertically*/
+
+/*
+.programs .card {
   display: block;
-}*/
+}
+*/
