@@ -88,9 +88,8 @@ footer {
   display: inline-block;
   position: absolute;
   margin-left: auto;
-
-  top: 10px;
-  right: 20px;
+  margin-top: auto;
+  margin-left: 10px;
  
   display: flex;
   justify-content: center;
