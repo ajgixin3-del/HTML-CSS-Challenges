@@ -85,15 +85,13 @@ footer {
   width: 120px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline;
-  position: relative;
+  display: inline-block;
+  position: fixed;
   margin-left: auto;
-  margin: 0 auto;
-  /*bottom: 20px;
-  right: 20px;
-  margin-top: 20px;
-  margin-right: 20px;*/
 
+  bottom: 20px;
+  right: 20px;
+ 
   display: flex;
   justify-content: center;
   align-content: center;
