@@ -118,6 +118,10 @@ footer {
   vertical-align: bottom;
 }
 
+#panda img:third-of-type {
+  vertical-align: bottom;
+}
+
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
