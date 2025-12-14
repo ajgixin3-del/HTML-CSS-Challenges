@@ -200,7 +200,7 @@ footer {
 
 .membership p {
   max-width: 700px;
-  margin: auto auto;
+  margin-left: auto;
 }
 
 /*Programs*/
