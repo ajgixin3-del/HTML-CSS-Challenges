@@ -64,12 +64,8 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
-  font-size: 150%;
 }
 
-button:hover {
-  background-color: #6742ee;
-}
 
 footer {
   background-color: #211a1d;
@@ -176,6 +172,14 @@ footer {
 .education-container h3,
 .education-container p {
   margin-bottom: 1em;
+}
+
+.education-container button {
+  font-size: 150%;
+}
+
+.education-container button:hover {
+  background-color: #6742ee;
 }
 
 /*Membership*/
