@@ -30,7 +30,6 @@ section {
 }
 
 img {
-  border: 5px solid #8075ff;
 }
 
 h1,
@@ -76,6 +75,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
 #badge {
@@ -192,4 +192,8 @@ footer {
 
 .programs .card {
   display: block;
+}
+
+p {
+  line-height: 1.5em;
 }
