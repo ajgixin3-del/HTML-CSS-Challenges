@@ -180,6 +180,14 @@ h3 {
   margin-bottom: 10px;
 }
 
+button {
+  font-size: large;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #ff7f11;
+}
 /*Education*/
 
 .education {
