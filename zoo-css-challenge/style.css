@@ -151,6 +151,10 @@ h3 {
   font-size: large;
 }
 
+.news h2 {
+  text-align: center;
+}
+
 .card {
   display: inline-block;
   background-color: white;
