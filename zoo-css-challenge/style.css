@@ -85,8 +85,9 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
+  transition: background-color 200ms ease, transform 200ms ease;
 
   display: flex;
   justify-content: center;
@@ -95,7 +96,8 @@ footer {
 }
 
 #badge:hover {
-  background-color: yellow;
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
 }
 
 #badge p {
@@ -233,8 +235,16 @@ h3 {
 
 /*Programs*/
 
+.programs .cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* карточка — обычный блок */
 .programs .card {
-  display: block;
+  display: block; /* важно: убери/переопредели display:flex */
+  width: auto; /* важно: чтобы не было width:100% */
 }
 
 p {
