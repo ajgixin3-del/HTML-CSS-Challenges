@@ -28,13 +28,18 @@
 * take a screenshot at laptop and Moto G4 device sizes in Devtools
 */
 
+:root {
+  --first-color: #bce7fd;
+  --second-color: #f2f5ff;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font: 100% "Poppins", sans-serif;
-  background-color: #bce7fd;
+  background-color: var(--first-color);
   margin: 0;
 }
 
@@ -53,7 +58,7 @@ main {
 }
 
 .grid-item {
-  background-color: #f2f5ff;
+  background-color: var(--second-color);
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -75,6 +80,7 @@ img {
 }
 
 footer {
-  position: absolute;
+  position: relative;
+  text-align: center;
   bottom: 10px;
 }
